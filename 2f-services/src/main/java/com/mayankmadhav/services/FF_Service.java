@@ -639,18 +639,18 @@ public class FF_Service extends javax.swing.JFrame {
         SimpleDateFormat T = new SimpleDateFormat("HH:mm:ss");
         T.format(c.getTime());
         
-        SimpleDateFormat D = new SimpleDateFormat("dd:MM:yyyy");
+        SimpleDateFormat D = new SimpleDateFormat("dd/MM/yyyy");
         D.format(c.getTime());
         
         int billId = 111+ (int)(Math.random()*55);
         
-        jTextArea1.append("               Thanks for visiting\n *********************************\n"+
-                                  "                Bill Id : " + billId + "\n" +
-                                  "                Date :  " + D.format(c.getTime()) +"\t" + "Time : " + T.format(c.getTime()) +"\n" +
-                                  "                Price for Food : " + jTextField8.getText() + "\n" +
-                                  "                Price for Fluid : " + jTextField9.getText() + "\n" + 
-                                  "                Total Bill : " + jTextField10.getText() +"\n" +
-                                  "                *********************************");
+        jTextArea1.append("        Thanks for visiting\n *********************************\n"+
+                                  "         Bill Id : " + billId + "\n" +
+                                  "         Date :  " + D.format(c.getTime()) +"\t" + "Time : " + T.format(c.getTime()) +"\n" +
+                                  "         Price for Food : " + jTextField8.getText() + "\n" +
+                                  "         Price for Fluid : " + jTextField9.getText() + "\n" + 
+                                  "         Total Bill : " + jTextField10.getText() +"\n" +
+                                  "         *********************************");
         
        
     }//GEN-LAST:event_jButton2ActionPerformed
